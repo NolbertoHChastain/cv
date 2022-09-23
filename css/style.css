@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+/*  all images */
+img {
+    border-radius: 60px;
+    border-style:hidden;
+}
+/* Face image  */
+#face {
+    position: absolute;
+}
+
+#tree {
+    position: absolute;
+    margin-left: 480px;
+}
+
+#tree2 {
+    float: left;
+}
+/* title + Face image */ 
+.top {
+    background-color: rgb(31, 39, 34);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 400px;
+}
+/* About me + Language skills section */
+.middle {
+    background-color: rgb(52, 78, 57);
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* My Skills tittle */
+.middleTitle {
+    text-align: center;
+}
+/* About me text  */
+#me {
+    color:rgb(184, 158, 158);
+    font-size: 20px;
+}
+/* row for columns in middle section */
+.row {
+    columns: 2;
+    column-gap: 30px;
+}
+/* first column of middle section */
+.col-1 {
+    float: left;
+}
+
+/* second column in middle section */
+.col-2 {
+    float: right;
+}
+/*  language skills */
+#Languages {
+  /*  margin-right: 20px; */
+    color: rgb(184, 158, 158);
+    font-size: 16px;                 /* this will have to be modified ! */
+}
+/* Leadership and Experience */
+.bottom {
+    background-color: rgb(52, 78, 57);
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* Leadership and Experience Title */
+#bottomTitle {
+    text-align: center;
+}
+/* row of Leadership and Experience section */ 
+.experience {
+    columns: 2;
+    width: 69fpx;
+    height: 240px;
+}
+/* first column of Leadership and Experience row */
+.col-1e {
+    float: left;
+}
+/* second column of Leadership and Experience row */
+.col-2e {
+    float: right;
+}
+/*  all horizontal rules */
+hr {
+    height: 10px;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px -10px black inset;
+}
+/* all links */
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Hover over work experience links */
+#adp:hover, #orchard:hover {
+    color:rgb(184, 158, 158);
+    text-transform: uppercase;
+}
+/* center Skills title */
+#skillsTitle {
+    text-align: center;
+}
+/* skills row with 2 columns */
+.skills {
+    columns: 2;
+    column-gap: 40px;
+    width: 500px;
+}
+/* first column for skills row */
+.col-1s {
+    float: left; 
+    height: 310px;
+}
+/* second column for skills row */
+.col-2s {
+    float: right;
+}
+/* Button-style link to contact page */
+#contact {
+    border-radius: 20px;
+    background-color:rgb(184, 158, 158);
+    padding: 4px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    border-style:ridge;
+}
+/* Button hover */
+#contact:hover {
+    color: white;
+}
+/* Center copyright symbol + name */
+#rights {
+    text-align: center;
+}
+/* Bottom Section */
+.copyright {
+    background-color:rgb(31, 39, 34);
+    padding: 20px;
+    color:rgb(184, 158, 158);
+}
+
+/* Styling of the contact page */
+.contact {
+    background-color: rgb(52, 78, 57);
+    text-align: center;
+}
+.text {
+    color:rgb(184, 158, 158);
+}
+.row1 {
+    columns: 2;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.label {
+    float: left;
+}
+.input {
+    float: right;
+}
+.form {
+    margin-top: 30px;
+}
+.submit {
+    color:rgb(184, 158, 158);
+}
